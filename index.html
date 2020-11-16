@@ -6,11 +6,13 @@
     <title>My Soundboard</title>
   </head>
   <body>
-    <ul class="buttons">
-        <li><a href=""><img src="button.png" alt="sound 1"></a></li>
-        <li><a href=""><img src="button.png" alt="sound 2"></a></li>
-        <li><a href=""><img src="button.png" alt="sound 3"></a></li>
-    </ul>
+    <audio id="sound1" src="sound1.wav"></audio>
+    <audio id="sound2" src="sound2.wav"></audio>
+    <audio id="sound3" src="sound3.wav"></audio>
+ 
+	<button onclick="document.getElementById('sound1').play()">Say Something</button>
+    <button onclick="document.getElementById('sound2').play()">Other Saying</button>
+    <button onclick="document.getElementById('sound3').play()">Other Saying</button>
 
     <script src="soundboard.js"></script>
   </body>
