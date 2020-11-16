@@ -10,9 +10,11 @@ p{
     font-family: 'Times New Roman', Times, serif;
     color: black;
     text-align: center;
-    font-size: larger;
+    font-size: xx-large;
 }
 
 button{
-    color: red;
+    size: 50px;
+    color: black;
+    background-color: red;
 }
